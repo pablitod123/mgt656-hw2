@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/enchanting-hummingbird', function(request, response){
-    response.send('Hello MGT-656!');
+    response.send('enchanting-hummingbird');
 });
 
 app.listen(process.env.PORT || 4000);
